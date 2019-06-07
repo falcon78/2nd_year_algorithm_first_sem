@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sujan/Documents/C_Algo_Report1/shohin.c
+stdio.h
+-
+shohin.h
+C:/Users/sujan/Documents/C_Algo_Report1/shohin.h
+
+C:/Users/sujan/Documents/C_Algo_Report1/shohin.h
+
