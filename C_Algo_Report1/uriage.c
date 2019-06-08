@@ -12,9 +12,9 @@ int printUriage(URIAGE *p) {
     const int tax = shohin[p->code].sotozei;
     const int total_sales = p->num;
     const int total_price =
-            tax == 1 ? (item_price * total_sales) * ZEI : item_price * total_sales;
+            tax ? (item_price * total_sales) * ZEI : item_price * total_sales;
     printf("%s\t 単価%d円(%s)\t%d 個\t%d円 \n", product_name, item_price,
-           tax == 1 ? "外税" : "内税", total_sales, total_price);
+           tax ? "外税" : "内税", total_sales, total_price);
     return total_price;
 }
 
@@ -26,9 +26,9 @@ int printUriageArray(URIAGE u[]) {
         const int tax = shohin[u[i].code].sotozei;
         const int total_sales = u[i].num;
         const int total_price =
-                tax == 1 ? (item_price * total_sales) * ZEI : item_price * total_sales;
+                tax ? (item_price * total_sales) * ZEI : item_price * total_sales;
         printf("%s\t 単価%d円(%s)\t%d 個\t%d円 \n", product_name, item_price,
-               tax == 1 ? "外税" : "内税", total_sales, total_price);
+               tax ? "外税" : "内税", total_sales, total_price);
         shokei += total_price;
     }
     return shokei;
@@ -45,9 +45,9 @@ int printUriageTrans(URIAGE **u) {
             const int tax = shohin[u[i][j].code].sotozei;
             const int total_sales = u[i][j].num;
             const int total_price =
-                    tax == 1 ? (item_price * total_sales) * ZEI : item_price * total_sales;
+                    tax ? (item_price * total_sales) * ZEI : item_price * total_sales;
             printf("%s\t 単価%d円(%s)\t%d 個\t%d円 \n", product_name, item_price,
-                   tax == 1 ? "外税" : "内税", total_sales, total_price);
+                   tax ? "外税" : "内税", total_sales, total_price);
             sub_total += total_price;
         }
         total += sub_total;
