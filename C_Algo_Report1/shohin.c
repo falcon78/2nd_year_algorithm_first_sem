@@ -13,5 +13,5 @@ SHOHIN shohin[] = {{"Apple",  150},
                    {"",       0}};
 
 void printshohin(SHOHIN s) {
-    printf("%s\t単価%d円(%s)", s.name, s.tanka, s.sotozei == 1 ? "外税" : "内税");
+    printf("%s\t単価%d円(%s)", s.name, s.tanka, s.sotozei ? "外税" : "内税");
 }
