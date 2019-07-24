@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/main.c" "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/main.c.obj"
-  "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/problem2.c" "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/problem2.c.obj"
-  "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/problem3.c" "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/problem3.c.obj"
-  "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/problem4.c" "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/problem4.c.obj"
-  "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/shohin.c" "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/shohin.c.obj"
-  "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/uriage.c" "C:/Users/sujan/Documents/C_Algo/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/uriage.c.obj"
+  "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/main.c" "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/main.c.o"
+  "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/problem2.c" "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/problem2.c.o"
+  "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/problem3.c" "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/problem3.c.o"
+  "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/problem4.c" "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/problem4.c.o"
+  "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/shohin.c" "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/shohin.c.o"
+  "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/uriage.c" "/home/falcon/Projects/2nd_year_algorithm_first_sem/C_Algo_Report1/cmake-build-debug/CMakeFiles/C_Algo_Report1.dir/uriage.c.o"
   )
-set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
