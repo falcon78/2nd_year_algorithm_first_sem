@@ -12,16 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ff389d-6123-4d7f-8101-7cc80737b7b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/problem2-1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/problem2-2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/problem2-3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/shohin.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/shohin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/uriage.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/uriage.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/uriagelist.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/uriagelist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C_Algo_Report2/problem2-4.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_Algo_Report2/uriagelist.c" beforeDir="false" afterPath="$PROJECT_DIR$/../C_Algo_Report2/uriagelist.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

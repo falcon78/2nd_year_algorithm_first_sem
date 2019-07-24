@@ -42,5 +42,9 @@ void freeUriageList(URIAGELIST *l, int purge) {
 }
 
 URIAGELIST* add (URIAGELIST* l, URIAGE *u){
-
+    URIAGELIST *newNode = newlist();
+    newNode->uriage = l->uriage;
+    newNode->next = l->next;
+    l->uriage = u;
+    l -> next = newNode;
 }
